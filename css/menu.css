@@ -1,0 +1,122 @@
+#menu {
+	width: 100%;
+	float: left;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+#banner {
+	font-size: 45px;
+	font-weight: 900;
+	font-family: "黑体";
+	margin: 0;
+	padding: 5px 20px;
+	float: left;
+	height: 60px;
+}
+
+#menu-content {
+	padding: 5px 10px;
+	float: left;
+	/*background: #000;*/
+	width: 40%;
+	height: 60px;
+}
+#menu-Console{
+	float: left;
+	padding: 5px 0px;
+	width: 30%;
+	height: 60px;
+}
+#menu-content a {
+	font-size: 16px;
+	margin: 5px;
+	position: relative;
+	/*脱离文档流*/
+	line-height: 60px;
+	font-family: "黑体";
+	/*background: #ef9;*/
+	text-decoration: none;
+	color: #009999;
+}
+
+#menu-content a:hover {
+	color: #000;
+}
+
+#test {
+	width: 100%;
+	height: 700px;
+	background: #ddf;
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+}
+
+#test-summary {
+	padding-top: 15%;
+	font-size: 120px;
+	position: relative;
+	/*脱离文档流*/
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	-webkit-transform: skewY(10deg);
+	-moz-transform: skewy(10deg) transform:skewy(10deg);
+}
+
+#test-describe {
+	font-size: 35px;
+	position: relative;
+	/*脱离文档流*/
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	-webkit-transform: skewY(10deg);
+	-moz-transform: skewy(10deg) transform:skewy(10deg);
+}
+
+#test2 {
+	width: 100%;
+	height: 700px;
+	background: #66c;
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+}
+#test3 {
+	width: 100%;
+	height: 700px;
+	background: #967;
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+}
+#test4 {
+	width: 100%;
+	height: 700px;
+	background: #447;
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+}
+#test5 {
+	width: 100%;
+	height: 700px;
+	background: #ffc;
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+}
+#test6 {
+	width: 100%;
+	height: 300px;
+	background: #666666;
+	position: relative;
+	margin-top: -150px;
+	font-size: 35px;
+	position: relative;
+	/*脱离文档流*/
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
