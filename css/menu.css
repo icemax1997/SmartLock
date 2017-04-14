@@ -1,239 +1,260 @@
 body {
-				margin: 0;
-				padding: 0;
-				background: #ddf;
-			}
+    margin: 0;
+    padding: 0;
+    background: #ddf;
+}
+
 #menu {
-	width: 100%;
-	float: left;
-	background: #000000;
-	position: fixed;
-	top: 0;
-	z-index: 9999;
+    width: 100%;
+    float: left;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
 }
 
 #banner {
-	font-size: 40px;
-	font-weight: 900;
-	font-family: "微软雅黑";
-	margin: 0;
-	padding: 5px 20px;
-	float: left;
-	height: 60px;
-	color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 5px 20px;
+    float: left;
+    height: 60px;
+    color: #fff;
 }
 
 #menu-content {
-	padding: 5px 10px;
-	float: left;
-	/*background: #000;*/
-	width: 40%;
-	height: 60px;
-}
-#menu-content a {
-	font-size: 16px;
-	margin: 5px;
-	position: relative;
-	/*脱离文档流*/
-	line-height: 60px;
-	font-family: "微软雅黑";
-	/*background: #ef9;*/
-	text-decoration: none;
-	color: #fff;
-}
-.console{
-	text-align: center;
+    padding: 5px 10px;
+    float: left;
+    /*background: #000;*/
+    width: 40%;
+    height: 60px;
 }
 
+#menu-content a {
+    font-size: 16px;
+    margin: 5px;
+    position: relative;
+    /*脱离文档流*/
+    line-height: 60px;
+    font-family: "微软雅黑";
+    /*background: #ef9;*/
+    text-decoration: none;
+    color: #fff;
+}
+
+.console {
+    text-align: center;
+}
 
 #test {
-	width: 100%;
-	height: 700px;
-	background: #00CDCD;
-	-webkit-transform: skewY(-10deg);
-	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+    width: 100%;
+    height: 700px;
+    background: #00CDCD;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewy(-10deg) transform: skewy(-10deg);
 }
-#test-page{
-	width: 100%;
-	height: 700px;
-	background: #ddf;
+
+#test-page {
+    width: 100%;
+    height: 700px;
+    background: #ddf;
 }
 
 #test-summary {
-	padding-top: 15%;
-	font-size: 120px;
-	position: relative;
-	/*脱离文档流*/
-	font-family: "微软雅黑";
-	font-weight: bold;
-	text-align: center;
-	-webkit-transform: skewY(10deg);
-	-moz-transform: skewy(10deg) transform:skewy(10deg);
+    padding-top: 15%;
+    font-size: 120px;
+    position: relative;
+    /*脱离文档流*/
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewy(10deg) transform: skewy(10deg);
 }
+
 #test-summary-page {
-	padding-top: 15%;
-	font-size: 120px;
-	position: relative;
-	/*脱离文档流*/
-	font-family: "微软雅黑";
-	font-weight: bold;
-	text-align: center;
+    padding-top: 15%;
+    font-size: 120px;
+    position: relative;
+    /*脱离文档流*/
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-align: center;
 }
 
 #test-describe {
-	font-size: 35px;
-	position: relative;
-	/*脱离文档流*/
-	font-family: "微软雅黑";
-	font-weight: bold;
-	text-align: center;
-	color: #fff;
-	-webkit-transform: skewY(10deg);
-	-moz-transform: skewy(10deg) transform:skewy(10deg);
-}
-#test-describe-page {
-	font-size: 35px;
-	position: relative;
-	/*脱离文档流*/
-	font-family: "微软雅黑";
-	font-weight: bold;
-	text-align: center;
-	color: #fff;
-}
-#test2 {
-	font-family: "微软雅黑";
-	width: 100%;
-	height: 700px;
-	background:#8470FF;
-	-webkit-transform: skewY(-10deg);
-	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
-}
-.a-r{
-/*	background: #FFFFCC;*/
-	margin-top: 8%;
-	width: 50%;
-	float: right;
-	-webkit-transform: skewY(10deg);
-	-moz-transform: skewy(10deg) transform:skewy(10deg);
-}
-.a-l{
-/*	background: #FFFFCC;*/
-	margin-top: 8%;
-	width: 50%;
-	float: left;
-	-webkit-transform: skewY(10deg);
-	-moz-transform: skewy(10deg) transform:skewy(10deg);
-}
-#pic1{
-	float: right;
-}
-#pic2{
-	margin-top: 5%;
-	float: left;
-}
-#pic2{
-	margin-top: 3%;
-	float: left;
-}
-.pic-l{
-	/*background: #666633;*/
-	margin-top: 6%;
-	width: 50%;
-	float: left;
-	-webkit-transform: skewY(10deg);
-	-moz-transform: skewy(10deg) transform:skewy(10deg);
-}
-.pic-r{
-	/*background: #666633;*/
-	margin-top: 6%;
-	width: 50%;
-	float: right;
-	-webkit-transform: skewY(10deg);
-	-moz-transform: skewy(10deg) transform:skewy(10deg);
-}
-#title{
-	font-size:45px;
-	text-align: center;
-	color: #FFFFFF;
-	
-}
-#tips{
-	margin: 5px 0;
-	font-size:20px;
-	text-align: center;
-	color: #666633;
+    font-size: 35px;
+    position: relative;
+    /*脱离文档流*/
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewy(10deg) transform: skewy(10deg);
 }
 
-#test-content-area{
-	text-align: center;
-	margin: 5px 0;
-	font-size:20px;
-	color: #666633;
-	width: 100%;
-	height: 300px;
-	/*background: #99CC33;*/
+#test-describe-page {
+    font-size: 35px;
+    position: relative;
+    /*脱离文档流*/
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
 }
-#text-content{
-	width: 65%;
-	font-size: 18px;
-	font-family: "微软雅黑";
-	margin: 15px auto;
-	/*background-color: #99CC33;*/
+
+#test2 {
+    font-family: "微软雅黑";
+    width: 100%;
+    height: 700px;
+    background: #8470FF;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewy(-10deg) transform: skewy(-10deg);
 }
-#test-content-area a{
-	width: 100px;
-	padding: 5px 50px;
-	color: #000;
-	border-radius: 5px;
-	text-decoration: none;
-	border: 2px solid black;
+
+.a-r {
+    /*	background: #FFFFCC;*/
+    margin-top: 8%;
+    width: 50%;
+    float: right;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewy(10deg) transform: skewy(10deg);
 }
+
+.a-l {
+    /*	background: #FFFFCC;*/
+    margin-top: 8%;
+    width: 50%;
+    float: left;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewy(10deg) transform: skewy(10deg);
+}
+
+#pic1 {
+    float: right;
+}
+
+#pic2 {
+    margin-top: 5%;
+    float: left;
+}
+
+#pic2 {
+    margin-top: 3%;
+    float: left;
+}
+
+.pic-l {
+    /*background: #666633;*/
+    margin-top: 6%;
+    width: 50%;
+    float: left;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewy(10deg) transform: skewy(10deg);
+}
+
+.pic-r {
+    /*background: #666633;*/
+    margin-top: 6%;
+    width: 50%;
+    float: right;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewy(10deg) transform: skewy(10deg);
+}
+
+#title {
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#tips {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #666633;
+}
+
+#test-content-area {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    color: #666633;
+    width: 100%;
+    height: 300px;
+    /*background: #99CC33;*/
+}
+
+#text-content {
+    width: 65%;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    margin: 15px auto;
+    /*background-color: #99CC33;*/
+}
+
+#test-content-area a {
+    width: 100px;
+    padding: 5px 50px;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
 #test3 {
-	width: 100%;
-	height: 700px;
-	background: #fa4242;
-	-webkit-transform: skewY(-10deg);
-	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+    width: 100%;
+    height: 700px;
+    background: #fa4242;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewy(-10deg) transform: skewy(-10deg);
 }
+
 #test4 {
-	width: 100%;
-	height: 700px;
-	background: #fff533;
-	-webkit-transform: skewY(-10deg);
-	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+    width: 100%;
+    height: 700px;
+    background: #fff533;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewy(-10deg) transform: skewy(-10deg);
 }
+
 #test5 {
-	width: 100%;
-	height: 800px;
-	background: #9c3;
-	-webkit-transform: skewY(-10deg);
-	-moz-transform: skewy(-10deg) transform:skewy(-10deg);
+    width: 100%;
+    height: 800px;
+    background: #9c3;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewy(-10deg) transform: skewy(-10deg);
 }
+
 #test6 {
-	width: 100%;
-	height: 300px;
-	background: #666666;
-	position: relative;
-	margin-top: -150px;
-	font-size: 35px;
-	position: relative;
-	/*脱离文档流*/
-	font-family: "微软雅黑";
-	font-weight: bold;
-	text-align: center;
-	color: #fff;
+    width: 100%;
+    height: 300px;
+    background: #666666;
+    position: relative;
+    margin-top: -150px;
+    font-size: 35px;
+    position: relative;
+    /*脱离文档流*/
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
 }
+
 #test6-p {
-	width: 100%;
-	height: 300px;
-	background: #666666;
-	position: relative;
-	margin-top: -100px;
-	font-size: 35px;
-	position: relative;
-	/*脱离文档流*/
-	font-family: "微软雅黑";
-	font-weight: bold;
-	text-align: center;
-	color: #fff;
+    width: 100%;
+    height: 300px;
+    background: #666666;
+    position: relative;
+    margin-top: -100px;
+    font-size: 35px;
+    position: relative;
+    /*脱离文档流*/
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
 }
