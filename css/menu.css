@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #ddf;
+	background: #00CDCD;
 }
 #menu {
 	width: 100%;
@@ -175,7 +175,7 @@ body {
 	margin: 5px 0;
 	font-size:20px;
 	text-align: center;
-	color: #666633;
+	color: #FFFFFF;
 }
 
 #test-content-area{
@@ -188,8 +188,10 @@ body {
 	/*background: #99CC33;*/
 }
 #text-content{
+	line-height: 2em;
+	text-align: left;
 	width: 65%;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: "微软雅黑";
 	margin: 15px auto;
 	/*background-color: #99CC33;*/
@@ -226,7 +228,7 @@ body {
 #test6 {
 	width: 100%;
 	height: 300px;
-	background: #666666;
+	background: #ddf;
 	position: relative;
 	margin-top: -150px;
 	font-size: 35px;
