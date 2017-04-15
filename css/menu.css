@@ -1,8 +1,8 @@
 body {
-				margin: 0;
-				padding: 0;
-				background: #ddf;
-			}
+	margin: 0;
+	padding: 0;
+	background: #ddf;
+}
 #menu {
 	width: 100%;
 	float: left;
@@ -10,42 +10,56 @@ body {
 	position: fixed;
 	top: 0;
 	z-index: 9999;
+	height: 70px;
 }
-
 #banner {
-	font-size: 40px;
+	float: left;
+	height: 70px;
+	font-size:2.5em;
 	font-weight: 900;
 	font-family: "微软雅黑";
-	margin: 0;
-	padding: 5px 20px;
-	float: left;
-	height: 60px;
+	width: 14%;
 	color: #fff;
+	padding: 0.2em 0.5em;
+	/*background: #41CAC0;*/
 }
-
 #menu-content {
-	padding: 5px 10px;
+	display: table;
 	float: left;
 	/*background: #000;*/
-	width: 40%;
-	height: 60px;
+	width:45%;
+	/*background: #666633;*/
 }
 #menu-content a {
-	font-size: 16px;
-	margin: 5px;
-	position: relative;
-	/*脱离文档流*/
-	line-height: 60px;
+	font-size: 1em;
+	height: 70px;
+	display: table-cell;  
+  	vertical-align: middle;
+  	padding-top: 0.2em;
 	font-family: "微软雅黑";
 	/*background: #ef9;*/
 	text-decoration: none;
 	color: #fff;
 }
-.console{
-	text-align: center;
+#menu-console{
+	display: table;
+	float: right;
+	margin-right: 6em;
+	/*background: #000;*/
+	width:15%;
+	/*background: #FFF533;*/
 }
-
-
+#menu-console a{
+	font-size: 1em;
+	height: 70px;
+	display: table-cell;  
+  	vertical-align: middle;
+  	padding-top: 0.2em;
+	font-family: "微软雅黑";
+	/*background: #ef9;*/
+	text-decoration: none;
+	color: #fff;
+}
 #test {
 	width: 100%;
 	height: 700px;
