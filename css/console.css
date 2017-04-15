@@ -1,95 +1,127 @@
 .{
 	font-family: "微软雅黑";
 }
-#console{
-	margin-top: 15%;
+html,body{
+	height: 100%;
 	width: 100%;
-}
-.console-table{
-	width: 50%;
-	float:left;
-	text-align: center;
+	position: relative;
 }
 .console-AD{
-	float: left;
-	width: 50%;
-	/*background: #995533;*/
+	position: absolute;
+	top:25%;
+	left: 10%;
 }
-.console-title{
-	margin: 0 auto;
-	width:75%;
-	padding: 10px;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	font-size: 30px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	background: #99CC33;
+#console{
+	border-radius: 10px;
+	height: 60%;
+	width: 25%;	
+	overflow: hidden;
+	position: absolute;
+	top: 23%;
+	left: 60%;
+	background-color: #000000;
+	position: relative;
 }
-.console-form{
-	margin: 0 auto;
-	background: #CCFF99;
-	width: 75%;
-	padding: 10px;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+#title{
+	font-size: 1.5em;
 }
-.usr{
-	padding-top: 3px;
-	float: left;
-	width: 25%;
+#title>span{
+	position: absolute;
+	top:3%;
+	left: 23%;
 }
-.usr span{
-	padding: 5%;
-	font-size: 15px;
+#aboutForm{
+	height: 90%;
+	width: 100%;
+	position:absolute;
+	top: 13%;
+	background-color: #fff;
 }
 .input_tx{
-	width:80%;
-	padding-top:3%;
-	padding-bottom: 3%;
-	padding-left: 5%;
-    border-radius: 5px;
-    font-size: 12px;
-    border: 1px solid #eaeaea;
-    margin-bottom: 5%;
-    margin-top: 4%;
+	padding-left: 3%;
+	box-sizing: border-box;
+	height: 10%;
+	width: 70%;
+	border-radius: 5px;
+	position: absolute;
+	top:10%;
+	left: 13%;
 }
 .input_tx1{
-	width:80%;
-	padding-top:3%;
-	padding-bottom: 3%;
-	padding-left: 5%;
-    border-radius: 5px;
-    font-size: 12px;
-    border: 1px solid #eaeaea;
-     margin-bottom: 5%;
+	padding-left: 3%;
+	box-sizing: border-box;
+	height: 10%;
+	width: 70%;
+	border-radius: 5px;
+	position: absolute;
+	top:27%;
+	left: 13%;
 }
-.remember{
-	font-size: 14px;
-	color: #1F253D;
-	text-decoration: none;
+#usr1{
+	position: absolute;
+	top: 44%;
+	left: 13%;
+	
 }
-.forget{
-	font-size: 14px;
-	color: #1F253D;
-	text-decoration: none;
-    margin-left:5%;
+.usr{
+	width: 400%;
+	font-size: 0.9em;
+	position: absolute;
+	top: 0%;
+	left: 100%;
 }
-.console-login,contact{
-    font-size: 24px;
-    color: white;
-    box-shadow: 0 4px #e5a26d;
-    background: #ffb179;
-    margin-top: 4%;
-    padding: 7px;
-    width: 80%;
-    border-radius: 6px;
-    margin-bottom: 23px;
-    border: 0px;
+#usr2{
+	position: absolute;
+	top: 44%;
+	left: 30%;
+	
 }
-.toschool{
-	font-size: 14px;
+#usr3{
+	position: absolute;
+	top: 44%;
+	left: 47%;
+	
 }
-.contact{
-	text-decoration: none;
+#usr4{
+	position: absolute;
+	top: 44%;
+	left: 70%;
+	
 }
+.console-login{
+	height: 10%;
+	width: 70%;
+	border-radius: 5px;
+	position: absolute;
+	top:54%;
+	left: 13%;
+	font-size: 1.3em;	
+	color: #fff;
+	background-color: #000;
+}
+.console-login:hover{
+	cursor: pointer;
+}
+#rem{
+	position: absolute;
+	top: 70%;
+	left: 13%;
+}
+#forget{
+	position: absolute;
+	top:70%;
+	left: 64%;
+}
+#forget a{
+	color: #0099CC;
+}
+#x{
+	position: absolute;
+	top: 88%;
+	left: 27%;
+}
+#x a{
+	color: #0099CC;
+}
+
+
