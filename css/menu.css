@@ -27,38 +27,43 @@ body {
 	display: table;
 	float: left;
 	/*background: #000;*/
-	width:45%;
+	width:55%;
 	/*background: #666633;*/
+	margin-top:0.5em;
 }
 #menu-content a {
 	font-size: 1em;
-	height: 70px;
-	display: table-cell;  
-  	vertical-align: middle;
-  	padding-top: 0.2em;
+	display: table-cell;
+  vertical-align: middle;
+  padding-top: 0.2em;
 	font-family: "微软雅黑";
 	/*background: #ef9;*/
 	text-decoration: none;
 	color: #fff;
+	padding-bottom: 0.3em;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
 }
 #menu-console{
 	display: table;
-	float: right;
-	margin-right: 6em;
+	float: left;
 	/*background: #000;*/
-	width:15%;
-	/*background: #FFF533;*/
+	width:25%;
+	/*background: #666633;*/
+	margin-top:0.5em;
 }
 #menu-console a{
 	font-size: 1em;
-	height: 70px;
-	display: table-cell;  
-  	vertical-align: middle;
-  	padding-top: 0.2em;
+	display: table-cell;
+  vertical-align: middle;
+  padding-top: 0.2em;
 	font-family: "微软雅黑";
 	/*background: #ef9;*/
 	text-decoration: none;
 	color: #fff;
+	padding-bottom: 0.3em;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
 }
 #test {
 	width: 100%;
@@ -169,7 +174,7 @@ body {
 	font-size:45px;
 	text-align: center;
 	color: #FFFFFF;
-	
+
 }
 #tips{
 	margin: 5px 0;
