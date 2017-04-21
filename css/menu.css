@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background:  #99CCFF;
+    background: #99CCFF;
 }
 
 #menu {
@@ -12,9 +12,12 @@ body {
     top: 0;
     z-index: 9999;
     height: 70px;
-		filter:alpha(opacity=80); /*IE滤镜，透明度50%*/
--moz-opacity:0.8; /*Firefox私有，透明度50%*/
-opacity:0.8;/*其他，透明度50%*/
+    filter: alpha(opacity=80);
+    /*IE滤镜，透明度50%*/
+    -moz-opacity: 0.8;
+    /*Firefox私有，透明度50%*/
+    opacity: 0.8;
+    /*其他，透明度50%*/
 }
 
 #banner {
@@ -78,18 +81,15 @@ opacity:0.8;/*其他，透明度50%*/
 #test {
     width: 100%;
     height: 700px;
-background: #99CCFF;
+    background: #99CCFF;
     -webkit-transform: skewY(-10deg);
     -moz-transform: skewy(-10deg) transform:skewy(-10deg);
 }
-
 #test-page {
-    width: 100%;
-    height: 700px;
-    background: #ddf;
-
+  width: 100%;
+  height: 700px;
+  background: #99CCFF;
 }
-
 .intro {
     position: absolute;
     left: 0;
@@ -97,18 +97,34 @@ background: #99CCFF;
     padding: 0 20px;
     width: 100%;
 }
-
+.intro-page {
+    position: absolute;
+    left: 0;
+    top: 0%;
+    padding: 0 20px;
+    width: 100%;
+}
 #test-summary {
     font-size: 100px;
     margin: 0px;
     position: relative;
-		margin-top: 15%;
+    margin-top: 15%;
     /*脱离文档流*/
     font-family: "微软雅黑";
     font-weight: bold;
     text-align: center;
     -webkit-transform: skewY(10deg);
     -moz-transform: skewy(10deg) transform:skewy(10deg);
+}
+#test-summary-page {
+  font-size: 100px;
+  margin: 0px;
+  position: relative;
+  margin-top: 15%;
+  /*脱离文档流*/
+  font-family: "微软雅黑";
+  font-weight: bold;
+  text-align: center;
 }
 
 #test-describe {
@@ -124,30 +140,15 @@ background: #99CCFF;
     -moz-transform: skewy(10deg) transform:skewy(10deg);
 }
 
-#test-page {
-    width: 100%;
-    height: 700px;
-    background: #ddf;
-}
-
-#test-summary-page {
-    padding-top: 15%;
-    font-size: 120px;
-    position: relative;
-    /*脱离文档流*/
-    font-family: "微软雅黑";
-    font-weight: bold;
-    text-align: center;
-}
-
 #test-describe-page {
-    font-size: 35px;
-    position: relative;
-    /*脱离文档流*/
-    font-family: "微软雅黑";
-    font-weight: bold;
-    text-align: center;
-    color: #fff;
+  font-size: 35px;
+  position: relative;
+  /*脱离文档流*/
+  font-family: "微软雅黑";
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  color: #FFFFFF;
 }
 
 #test2 {

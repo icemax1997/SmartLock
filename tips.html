@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/menu.css" />
-		<link rel="stylesheet" type="text/css" href="css/page.css"/>
-		<style type="text/css">
-			body {
-				margin: 0;
-				padding: 0;
-background: #CCFFCC;
-			}
-		</style>
-	</head>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+	<link rel="stylesheet" type="text/css" href="css/page.css" />
+		<link rel="stylesheet" type="text/css" href="css/navigation.css">
+		<script type='text/javascript' src='js/jquery.js'></script>
 
-	<body>
-		<div id="menu">
-			<div id="banner">SmartLock</div>
-			<div id="menu-content">
-				<a href="index.html">网站主页</a>
-				<a href="lock.html">智能开锁</a>
-				<a href="help.html">一键救援</a>
-				<a href="safe.html">安全监控</a>
-				<a href="conduction.html">行为监管</a>
-				<a href="tips.html">智能提醒</a>
-				<a href="rest.html">智能休眠</a>
-				<a href="power.html">灵活授权</a>
-			</div>
-			<div id="menu-console">
-				<a href="console.html">管理后台</a>
-				<a href="">客户端下载</a>
-				<a href="">登录</a>
-			</div>
+		<script type='text/javascript' src='js/demo.js'></script>
+
+		<script type='text/javascript' src="js/jquery.particleground.min.js"></script>
+
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			background: #CCFFCC;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="menu">
+		<div id="banner">SmartLock</div>
+		<div id="menu-content">
+			<ul>
+				<li class="navigation-item">
+					<a href="index.html" class="navigation-link">
+							网站主页
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="lock.html" class="navigation-link">
+							智能开锁
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="help.html" class="navigation-link">
+							一键救援
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="safe.html" class="navigation-link">
+							安全监控
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="conduction.html" class="navigation-link">
+							行为监控
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="tips.html" class="navigation-link">
+							智能提醒
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="rest.html" class="navigation-link">
+							智能休眠
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="power.html" class="navigation-link">
+							灵活授权
+						</a>
+				</li>
+			</ul>
 		</div>
-		<div id="test-page" >
-			<div id="test-summary-page">SmartLock</div>
-			<div id="test-describe-page">智能，你从未有过的生活方式</div>
+		<div id="menu-console">
+			<ul>
+				<li class="navigation-item">
+					<a href="console.html" class="navigation-link">
+							管理后台
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="#" class="navigation-link">
+							客户端下载
+						</a>
+				</li>
+				<li class="navigation-item">
+					<a href="#" class="navigation-link">
+							登录
+						</a>
+				</li>
+			</ul>
 		</div>
+	</div>
+	<div id="test-page">
+		<div class="intro-page">
+			<h1 id="test-summary-page">SmartLock</h1>
+			<p id="test-describe-page">智能，你从未有过的生活方式</p>
+		</div>
+		<script type="text/javascript">
+			$('#test-page').particleground({
+				dotColor: '#fff',
+				lineColor: '#fff'
+			});
+		</script>
 	<div id="page">
 		<div id="page-title">
 			智能提醒
@@ -46,6 +108,6 @@ background: #CCFFCC;
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为用户主体为学生，所以会有天气提醒、课表提示、重要行程提醒等人性化小功能。从用户角度出发，给用户贴心、温暖体验，增加用户对APP的使用好感度。
 		</div>
 	</div>
-	</body>
+</body>
 
 </html>
