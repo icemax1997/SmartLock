@@ -2,11 +2,12 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    height: 450px;
+    height: 550px;
 }
 
 #page div {
     float: left;
+    font-size: 17px;
 }
 
 .page-content {
@@ -18,10 +19,21 @@
 .page-links {
     width: 40%;
     font-size: 15px;
-    line-height:1.5em;
     color: #494947;
 
 }
 .page-links li{
-    list-style:none
+    list-style:none;
+    padding-left: 6px;
+}
+.page-links a{
+    text-decoration: none;
+}
+.page-links a:link,a:hover,a:active,a:visited{
+    text-decoration: none;
+    color: #494947;
+}
+
+.page-links li:hover{
+  border-left: 2px solid #fff;
 }

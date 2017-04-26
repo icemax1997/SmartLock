@@ -14,7 +14,7 @@ html,body{
 #console{
 	border-radius: 10px;
 	height: 60%;
-	width: 25%;	
+	width: 25%;
 	overflow: hidden;
 	position: absolute;
 	top: 23%;
@@ -41,6 +41,7 @@ html,body{
 	padding-left: 3%;
 	box-sizing: border-box;
 	height: 10%;
+border:1px solid #c8cccf;
 	width: 70%;
 	border-radius: 5px;
 	position: absolute;
@@ -52,6 +53,7 @@ html,body{
 	box-sizing: border-box;
 	height: 10%;
 	width: 70%;
+	border:1px solid #c8cccf;
 	border-radius: 5px;
 	position: absolute;
 	top:27%;
@@ -61,7 +63,7 @@ html,body{
 	position: absolute;
 	top: 44%;
 	left: 13%;
-	
+
 }
 .usr{
 	width: 400%;
@@ -74,19 +76,19 @@ html,body{
 	position: absolute;
 	top: 44%;
 	left: 30%;
-	
+
 }
 #usr3{
 	position: absolute;
 	top: 44%;
 	left: 47%;
-	
+
 }
 #usr4{
 	position: absolute;
 	top: 44%;
 	left: 70%;
-	
+
 }
 .console-login{
 	height: 10%;
@@ -95,7 +97,7 @@ html,body{
 	position: absolute;
 	top:54%;
 	left: 13%;
-	font-size: 1.3em;	
+	font-size: 1.3em;
 	color: #fff;
 	background-color: #000;
 }
@@ -123,5 +125,3 @@ html,body{
 #x a{
 	color: #0099CC;
 }
-
-
