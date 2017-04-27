@@ -12,6 +12,24 @@
     <script type='text/javascript' src='js/jquery.js'></script>
     <script type='text/javascript' src='js/demo.js'></script>
     <script type='text/javascript' src="js/jquery.particleground.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#login").click(function() {
+                var name = $("#name").val();
+                var password = $("#password").val();
+                if (name == "admin" && password == "admin") {
+                    alert("恭喜!您登录成功");
+                    $("#name").val("");
+                    $("#password").val("");
+                    window.open("http://112.74.18.56:8080/mywebsite/console/user.html", "_blank") = window.open("Url地址");
+                } else if (name == "admin" && password != "admin") {
+                    alert("密码错误");
+                } else if (name != "admin" && password == "admin") {
+                    alert("账号错误");
+                }
+            })
+        })
+    </script>
     <style type="text/css">
         body {
             margin: 0;
@@ -93,10 +111,10 @@
         <div id="title"><span>SmartLock Console</span></div>
         <div id="aboutForm">
             <form action="" class="console-form">
-                <input type="text" name="username" class="input_tx" placeholder="User ID">
-                <input type="password" name="userPW" class="input_tx1" placeholder="Password">
+                <input type="text" name="username" class="input_tx" placeholder="User ID" id="name">
+                <input type="password" name="userPW" class="input_tx1" placeholder="Password" id="password">
                 <div id="usr1">
-                    <input type="radio" id="checkbox-1-1" class="regular-checkbox" name="1" />
+                    <input type="radio" id="checkbox-1-1" class="regular-checkbox" name="1" checked="ture" />
                     <label for="checkbox-1-1"></label>
                     <div class="usr">教师</div>
                 </div>
@@ -123,7 +141,7 @@
                 <div id="forget"><a href="">忘记密码?</a></div>
 
                 <a href="index.html">
-                    <button class="console-login" type="submit">Login</button>
+                    <button class="console-login" type="submit" id="login">Login</button>
                 </a>
 
                 <div id="x">
