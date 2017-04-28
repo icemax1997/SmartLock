@@ -75,14 +75,24 @@
 			</ul>
 		</div>
 		<div id="menu-console">
-			<ul>
-				<li class="navigation-item">
-					<a href="console.html" class="navigation-link">
-							管理后台
-						</a>
-				</li>
-
-			</ul>
+				<ul>
+						<li class="navigation-item">
+								<a href="console.html" class="navigation-link">
+					管理后台
+				</a>
+						</li>
+						<li class="navigation-item">
+								<a href="console.html" class="navigation-link" id="download-ll">
+							APP下载
+							</a>
+						</li>
+				</ul>
+				<div id="download-l" style="background:#fff" class="download-l">
+						<img src="img/download-l.png" alt="">
+				</div>
+				<script>
+						document.getElementById("download-l").style.visibility = "hidden";
+				</script>
 		</div>
 	</div>
 	<div id="test-page">
@@ -138,5 +148,15 @@
 			</div>
 		</div>
 </body>
-
+<script>
+$(document).ready(function() {
+		document.getElementById("download-l").style.visibility = "hidden";
+})
+$("#download-ll").mouseout(function() {
+		document.getElementById("download-l").style.visibility = "hidden";
+})
+$("#download-ll").mouseover(function() {
+		document.getElementById("download-l").style.visibility = "visible";
+})
+</script>
 </html>

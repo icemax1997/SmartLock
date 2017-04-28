@@ -77,10 +77,18 @@
 							管理后台
 						</a>
                 </li>
-
+                <li class="navigation-item">
+                    <a href="console.html" class="navigation-link" id="download-ll">
+                  APP下载
+                  </a>
                 </li>
-
             </ul>
+            <div id="download-l" style="background:#fff" class="download-l">
+                <img src="img/download-l.png" alt="">
+            </div>
+            <script>
+    						document.getElementById("download-l").style.visibility = "hidden";
+    				</script>
         </div>
     </div>
     <div class="console-AD"><img src="img/earth.png" /></div>
@@ -111,9 +119,17 @@
                     <div class="usr">校警</div>
                 </div>
                 <div class="else">
-                  <div id="click" class="else-chlid">下载APP</div>
-                <div class="else-chlid"><div class="tip-bubble tip-bubble-left" id="download" ><img src="img/demo5.png" alt="">请扫描上方二维码</div></div>
-                  <div class="else-chlid">联系校方</div>
+                    <div id="click" class="else-chlid">下载APP</div>
+                    <div class="else-chlid">
+                        <div class="tip-bubble tip-bubble-left" id="download"><img src="img/demo5.png" alt="">请扫描上方二维码</div>
+                        <script>
+                        document.getElementById("download").style.visibility = "hidden";
+                        $("#download").animate({
+                            width: "96px"
+                        });
+                        </script>
+                    </div>
+
                 </div>
             </form>
             <button class="console-login" type="submit" id="login">login</button>
@@ -122,21 +138,26 @@
 
 </body>
 <script>
-$(document).ready(function(){
+    $("#click").mouseout(function() {
+        document.getElementById("download").style.visibility = "hidden";
 
-  document.getElementById("download").style.visibility="hidden";//隐藏
-$("#download").animate({width:"96px"});
-})
-$("#click").mouseout(function(){
-  document.getElementById("download").style.visibility="hidden";//隐藏
-  $("#download").animate({width:"96px"});
-})
-$("#click").mouseover(function(){
-  document.getElementById("download").style.visibility="visible";//隐藏
-  // $("#download").animate({marginRight:"-10px"});
-$("#download").animate({width:"125px"});
+        $("#download").animate({
+            width: "96px"
+        });
+    })
+    $("#click").mouseover(function() {
+        document.getElementById("download").style.visibility = "visible";
 
-})
+        $("#download").animate({
+            width: "125px"
+        });
+    })
+    $("#download-ll").mouseout(function() {
+        document.getElementById("download-l").style.visibility = "hidden";
+    })
+    $("#download-ll").mouseover(function() {
+        document.getElementById("download-l").style.visibility = "visible";
+    })
     $("#login").click(function() {
 
         var name = $("#name").val();
@@ -145,9 +166,9 @@ $("#download").animate({width:"125px"});
         if (name == "admin" && password == "admin") {
             if (value == "学生" || value == "教师" || value == "宿管办" || value == "校警") {
                 swal("登录成功!", "即将进入[" + value + "]级别SmartLock信息管理系统", "success")
-                setTimeout(function () {
-                  window.open("http://112.74.18.56:8080/mywebsite/console/user.html", "_self");
-              }, 2000);
+                setTimeout(function() {
+                    window.open("http://112.74.18.56:8080/mywebsite/console/user.html", "_self");
+                }, 2000);
             } else {
                 swal("还差一步", "请选择您要登录的级别")
             }

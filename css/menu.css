@@ -14,7 +14,7 @@ body {
     height: 70px;
     filter: alpha(opacity=60);
     -moz-opacity: 0.6;
-    opacity: 0.6;
+    /*opacity: 0.7;*/
 }
 
 #banner {
@@ -56,7 +56,7 @@ body {
     display: table;
     float: left;
     /*background: #000;*/
-    width: 25%;
+    width: 27%;
     /*background: #666633;*/
     margin-top: 0.5em;
 }
@@ -273,4 +273,9 @@ body {
     background: #9c3;
     -webkit-transform: skewY(-6deg);
     -moz-transform: skewy(-6deg) transform:skewy(-6deg);
+}
+.download-l{
+  width: 200px;
+  height: 200px;
+  background:#fff;
 }
